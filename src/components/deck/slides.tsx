@@ -144,7 +144,7 @@ export function S01() {
   return (
     <div className="flex flex-col h-full justify-between">
       <div className="flex items-center justify-between">
-        <SectorTag>S For Sport — Diversification Memorandum</SectorTag>
+        <SectorTag>S For Sports — Diversification Memorandum</SectorTag>
         <span className="text-[13px] tracking-[0.18em] uppercase text-muted-foreground tabular">
           2026
         </span>
@@ -152,7 +152,7 @@ export function S01() {
       <div>
         <h1 className="text-[160px] leading-[0.95] font-medium tracking-[-0.035em] text-ink max-w-[1600px]">
           Diversifying
-          <br />S For Sport.
+          <br />S For Sports.
         </h1>
         <p className="mt-10 text-[32px] text-muted-foreground font-light max-w-[1100px]">
           Six plays. One brand. Spread the bet across leagues, venues, grassroots & events.
@@ -209,7 +209,7 @@ export function S02() {
   const pillars = [
     { Icon: Trophy, t: "Leagues", s: "TNPPL · CPL · CPPL" },
     { Icon: Building2, t: "Venues", s: "A for Arena anchor" },
-    { Icon: GraduationCap, t: "Grassroots", s: "Schools & colleges" },
+    { Icon: GraduationCap, t: "Grassroots", s: "Schools & Colleges" },
     { Icon: CalendarDays, t: "Events", s: "Paddle City Open" },
   ];
   const why = [
@@ -235,8 +235,8 @@ export function S02() {
   return (
     <>
       <header className="mb-8">
-        <SectorTag>The Thesis</SectorTag>
-        <AnimatedHeadline text="Don't bet S For Sport on one league. Diversify it." />
+        <SectorTag>The Vision</SectorTag>
+        <AnimatedHeadline text="Don't bet S For Sports on one league. Diversify it." />
         <p className="mt-4 text-[22px] leading-[1.45] text-muted-foreground font-light max-w-[1200px]">
           Spread the brand across leagues, venues, grassroots and events. Each play compounds the
           others.
@@ -321,7 +321,7 @@ export function S02() {
           </div>
           <div className="mt-auto border-t thin-rule pt-4 text-[14px] text-ink leading-relaxed">
             Diversification is the moat.{" "}
-            <span className="font-medium">That is how S For Sport wins.</span>
+            <span className="font-medium">That is how S For Sports wins.</span>
           </div>
         </div>
       </Grid12>
@@ -389,7 +389,7 @@ const portfolio = [
 ];
 
 const connections: { Icon: typeof Sparkles; k: string; v: string }[] = [
-  { Icon: GraduationCap, k: "Grassroots", v: "Schools & colleges feed the pipeline." },
+  { Icon: GraduationCap, k: "Grassroots", v: "Schools & Colleges feed the pipeline." },
   { Icon: CalendarDays, k: "Events", v: "Paddle City Open builds reach." },
   { Icon: Trophy, k: "Leagues", v: "TNPPL · CPL · CPPL monetise the audience." },
   { Icon: Building2, k: "Venues", v: "A for Arena anchors it all." },
@@ -401,7 +401,7 @@ export function S03() {
     <>
       <SlideHeader
         tag="Portfolio Overview"
-        title="Six ways to diversify S For Sport."
+        title="Six ways to diversify S For Sports."
         sub="Four asset classes. Six independent plays. One brand getting bigger from every direction."
       />
       <div className="border-t thin-rule">
@@ -1378,7 +1378,7 @@ export function S09() {
   );
 }
 
-/* ---------- 10 Intercollege Pickleball Tournament — Opportunity ---------- */
+/* ---------- 10 Inter-college Pickleball Tournament — Opportunity ---------- */
 
 function ExpandList({ items }: { items: { Icon: typeof Sparkles; t: string; s: string }[] }) {
   const [open, setOpen] = useState<number | null>(0);
@@ -1422,18 +1422,18 @@ export function S10() {
   return (
     <>
       <SlideHeader
-        tag="10 · Opportunity 04 · Intercollege Pickleball Tournament"
+        tag="10 · Opportunity 04 · Inter-college Pickleball Tournament"
         title="Build the Grassroots. Own the Next Generation."
-        sub="Intercollege Pickleball Tournament — Chennai & Bangalore · in partnership with TNPA."
+        sub="Inter-college Pickleball Tournament — Chennai & Bangalore · in partnership with TNPA."
         logoKey="school"
-        logoLabel="Intercollege Tournament"
+        logoLabel="Inter-college Tournament"
       />
       <Grid12>
         <div className="col-span-5 flex flex-col gap-4 min-h-0">
           <div className="border thin-rule rounded-md overflow-hidden flex-1 min-h-[260px] bg-muted flex items-center justify-center">
             <img
               src={images.school}
-              alt="Intercollege pickleball tournament"
+              alt="Inter-college pickleball tournament"
               className="w-full h-full object-cover grayscale-[0.3] saturate-50"
               loading="lazy"
             />
@@ -1507,7 +1507,7 @@ export function S10() {
   );
 }
 
-/* ---------- 11 Intercollege Pickleball Tournament — Investment & Returns ---------- */
+/* ---------- 11 Inter-college Pickleball Tournament — Investment & Returns ---------- */
 
 export function S11() {
   return (
@@ -1574,7 +1574,7 @@ export function S11() {
               {
                 Icon: GraduationCap,
                 t: "Pipeline ownership.",
-                s: "Every student athlete = future CPPL player & S For Sport advocate.",
+                s: "Every student athlete = future CPPL player & S For Sports advocate.",
               },
               {
                 Icon: Heart,
@@ -1819,7 +1819,7 @@ export function S14() {
     <>
       <SlideHeader
         tag="14 · A for Arena · Opportunity"
-        title="Build the Home of S For Sport."
+        title="Build the Home of S For Sports."
         sub="A For Arena · Pickleball | Paddle | Badminton | Café · Chennai City Centre · Open 6AM–12AM, 365 days."
         logoKey="arena"
         logoLabel="A for Arena"
@@ -1877,7 +1877,7 @@ export function S14() {
               {
                 Icon: Award,
                 t: "No direct competition.",
-                s: "All three paddle sports under one roof — flagship S For Sport venue.",
+                s: "All three paddle sports under one roof — flagship S For Sports venue.",
               },
             ]}
           />
@@ -2017,7 +2017,7 @@ export function S16() {
       <>
         <SlideHeader
           tag="16 · Next Steps"
-          title="Pick the plays that diversify S For Sport first."
+          title="Pick the plays that diversify S For Sports first."
         />
         <div className="border-t thin-rule">
           <div className="grid grid-cols-12 text-[12px] uppercase tracking-[0.16em] text-muted-foreground py-4 border-b thin-rule">
